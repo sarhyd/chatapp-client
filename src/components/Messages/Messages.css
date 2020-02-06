@@ -1,0 +1,47 @@
+.msgArea {
+  background-color: cornsilk;
+  align-self: baseline;
+  min-height: 80vh;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategrey;
+  overflow: auto;
+  flex: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-align: unset;
+}
+
+.baseMsg {
+  font-size: 12px;
+  margin: 4px;
+  max-width: 10vw;
+  color: darkslategrey;
+  border-radius: 2px;
+  display: block;
+  clear: both;
+}
+
+.message {
+  background-color: white;
+}
+
+.userMessage {
+  background-color: #92c06045;
+  float: right;
+  clear: right;
+}
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sender {
+  display: block;
+  background-color: #f0ecec;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+  clear: left;
+  font-size: 12px;
+  font-family: arial;
+}

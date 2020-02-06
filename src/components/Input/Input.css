@@ -1,0 +1,25 @@
+.msgInput {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.input {
+  flex-grow: 3;
+  width: 95vw;
+  border-radius: 2px;
+  border: 1px solid white;
+  align-self: flex-start;
+  color: darkslategrey;
+}
+
+.sendMsgBtn {
+  flex-grow: 1;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: darkslategrey;
+  width: 5vw;
+  background-color: #b4e27c;
+  border: none;
+  border-radius: 0px 2px;
+}

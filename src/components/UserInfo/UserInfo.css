@@ -1,0 +1,11 @@
+.userList {
+  background-color: honeydew;
+  height: 100%;
+  overflow: auto;
+  text-align: left;
+}
+.user {
+  font-family: Arial;
+  color: darkslategrey;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.infobar {
+  width: 30vw;
+  align-self: flex-start;
+  height: auto;
+  background-color: #b4e27c;
+  padding: 10px 5px 0px 5px;
+}
+
+.close {
+  align-self: flex-start;
+}
+
+.message {
+  background-color: white;
+}
